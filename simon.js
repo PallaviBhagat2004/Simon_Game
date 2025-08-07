@@ -19,7 +19,7 @@ function levelup(){
     level++;
     h3.innerHTML=`Level ${level}`;
     
-    let random=Math.floor(Math.random()*3);  //index
+    let random=Math.floor(Math.random()*4);  //index
     let rancolor=color[random];   //color
     gameSeq.push(rancolor);    // store the sequence of the game
     console.log(gameSeq);   
